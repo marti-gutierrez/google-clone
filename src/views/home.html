@@ -1,0 +1,55 @@
+<main class="flex flex-col justify-center items-center w-full h-full gap-8">
+  <figure class="min-w-[160px] w-2/5 max-w-[272px] mt-12 md:mt-52">
+    <img src="/GoogleLogo.png" alt="logo de Google" class="w-full" id="logo" />
+  </figure>
+  <div
+    class="grid grid-cols-[40px_1fr_40px] place-items-center w-11/12 max-w-[582px] h-[46px]"
+  >
+    <span
+      class="z-10 bg-loupe col-start-1 col-end-2 row-start-1 ml-3 w-5 h-5"
+    ></span>
+    <input
+      type="text"
+      class="col-span-full row-span-full border dark:border-dark-50 w-full h-full rounded-3xl px-12 bg-transparent focus:outline-none hover:shadow hover:shadow-dark-50 hover:border-none"
+    />
+    <span
+      class="bg-microphone col-start-3 col-end-[-1] row-start-1 mr-3"
+    ></span>
+  </div>
+
+  <div class="grid-rows-[36px] grid-cols-2 gap-4 hidden md:grid">
+    <button class="bg-dark-25 px-4 text-black text-[14px] dark:bg-dark-100 dark:text-white rounded">
+      Busco con Google
+    </button>
+    <button class="bg-dark-25 px-4 text-black text-[14px] dark:bg-dark-100 dark:text-white rounded">
+      Voy a tener suerte
+    </button>
+  </div>
+</main>
+
+<footer class="absolute bottom-0 right-0 w-full bg-footer dark:bg-dark-300">
+  <p class="p-4 border-b-2 dark:border-dark-200">México</p>
+  <div class="w-full h-12 border-b-2 dark:border-dark-200"></div>
+  <ol class="flex flex-wrap justify-between w-10/12 mx-auto h-full py-4">
+    <ul class="flex gap-4 flex-wrap">
+      <li class="text-[13px] col-span-2 justify-self-center">
+        <button id="dark">Tema oscuro: Desactivado</button>
+      </li>
+      <li class="justify-self-start">
+        <a href="#/">preferencias</a>
+      </li>
+      <li class="justify-self-end">
+        <a href="#/">privacidad</a>
+      </li>
+      <li class="justify-self-start col-span-2">
+        <a href="#/">Condiciones</a>
+      </li>
+    </ul>
+    <ul class="flex gap-4 flex-wrap">
+      <li><a href="#/">Sobre Google</a></li>
+      <li><a href="#/">Publicidad</a></li>
+      <li><a href="#/">Negocios</a></li>
+      <li><a href="#/">Cómo funciona la Búsqueda</a></li>
+    </ul>
+  </ol>
+</footer>

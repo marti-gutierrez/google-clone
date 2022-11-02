@@ -1,24 +1,18 @@
-*,
-::after,
-::before {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  span {
+    @apply h-6 w-6  bg-center bg-cover bg-no-repeat;
+  }
+  a {
+    @apply text-[13px] capitalize;
+  }
 }
 
-span {
-  display: inline-block;
-  inline-size: 24px;
-  block-size: 24px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#menu {
-  background-image: url("/menu.svg");
-}
-
-#apps {
-  background-image: url("/apps.svg");
+@layer components {
+  .roots {
+    @apply text-xs font-bold uppercase;
+  }
 }
