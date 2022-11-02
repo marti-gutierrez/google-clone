@@ -7,12 +7,18 @@
     @apply h-6 w-6  bg-center bg-cover bg-no-repeat;
   }
   a {
-    @apply text-[13px] capitalize;
+    @apply text-[13px] capitalize hover:underline hover:decoration-solid;
+  }
+  button {
+    @apply bg-dark-25 px-4 text-black text-[14px] dark:bg-dark-100 dark:text-white rounded hover:border hover:border-solid;
   }
 }
 
 @layer components {
   .roots {
-    @apply text-xs font-bold uppercase;
+    @apply text-black dark:text-white;
+  }
+  .perfil {
+    @apply flex justify-center items-center w-10 h-10 hover:bg-dark-25 rounded-full dark:hover:bg-dark-100;
   }
 }
