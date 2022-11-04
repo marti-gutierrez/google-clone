@@ -10,10 +10,10 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        menu: "url('./menus.png')",
-        apps: "url('./apps.png')",
-        microphone: "url('./microp.png')",
-        loupe: "url('./busqueda.png')"
+        menu: "url('/menus.png')",
+        apps: "url('/apps.png')",
+        microphone: "url('/microp.png')",
+        loupe: "url('/busqueda.png')"
       },
       colors: {
         gooText: "#70757A",
